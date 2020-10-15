@@ -29,10 +29,10 @@ class SamplePlugin: JavaPlugin(){
 class SummonTNT: Runnable {
     override fun run() {
         for (players in Bukkit.getOnlinePlayers()) {
-            val location = (players?.location ?: Bukkit.getWorlds().first().spawnLocation).add(0.0,3.0,0.0)
+            val location = (players?.location ?: Bukkit.getWorlds().first().spawnLocation).add(0.0, 1.0, 0.0)
             val world = location.world
             world?.spawn(location, TNTPrimed::class.java) {
-                entity -> entity.fuseTicks = 200
+                entity -> entity.fuseTicks = 40
             }
         }
         Bukkit.broadcastMessage("폭탄 떨어져유~")
