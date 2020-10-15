@@ -1,0 +1,4 @@
+main: kotlinPlugin.SamplePlugin
+name: PluginTest
+version: 1.0.0
+authors: [Steve28]

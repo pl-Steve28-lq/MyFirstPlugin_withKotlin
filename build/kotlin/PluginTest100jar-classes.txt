@@ -1,0 +1,1 @@
+C:\Users\aaa_665\IdeaProjects\PluginTest\build\classes\kotlin\main\kotlinPlugin\SamplePlugin.class;C:\Users\aaa_665\IdeaProjects\PluginTest\build\classes\kotlin\main\kotlinPlugin\SummonTNT$run$1.class;C:\Users\aaa_665\IdeaProjects\PluginTest\build\classes\kotlin\main\kotlinPlugin\SummonTNT.class
