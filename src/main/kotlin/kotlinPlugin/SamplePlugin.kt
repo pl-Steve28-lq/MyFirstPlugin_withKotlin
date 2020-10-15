@@ -18,7 +18,7 @@ class SamplePlugin: JavaPlugin(){
             border.size = 1000.0
             spawnLocation = getHighestBlockAt(0, 0).location
         }
-        server.scheduler.runTaskTimer(this, SummonTNT(), 0L, 60000L)
+        server.scheduler.runTaskTimer(this, SummonTNT(), 0L, 20L*60L)
     }
 
     override fun onDisable(){
